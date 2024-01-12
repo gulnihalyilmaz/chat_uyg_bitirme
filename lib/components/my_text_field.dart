@@ -17,9 +17,9 @@ class MyTextField extends StatelessWidget {
       obscureText: obscureText,
       decoration: const InputDecoration(
           enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Color.fromARGB(255, 175, 72, 72)),
+            borderSide: BorderSide(color: Color.fromARGB(255, 43, 179, 56)),
           ),
-          labelText: "ereree"),
+          labelText: "simdi düzelticme"),
     );
   }
 }
