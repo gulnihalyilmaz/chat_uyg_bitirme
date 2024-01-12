@@ -19,7 +19,7 @@ class MyTextField extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderSide: BorderSide(color: Color.fromARGB(255, 43, 179, 56)),
           ),
-          labelText: "simdi düzelticme"),
+          labelText: "arkaplan yazisi"),
     );
   }
 }
