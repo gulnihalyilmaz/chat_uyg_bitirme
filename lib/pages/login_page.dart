@@ -72,19 +72,19 @@ void signIn() {}
               const SizedBox(height: 50,),
 
             //not a member? register now
-            const Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-              Text('Üye değil misiniz?'),
-              const 
-              SizedBox(width: 4,)
-              GestureDetector(
+                const Text('Üye değil misiniz?'),
+              const SizedBox(width: 4),
+                GestureDetector(
                 onTap: widget.onTap,
-                
-                child: Text('Şimdi Kaydol',
+                child: Text(
+                  'Şimdi Kaydol',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                )),
+                ),
+                ),
               )
               ],)
 
